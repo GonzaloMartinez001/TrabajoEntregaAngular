@@ -1,5 +1,9 @@
 # Gamepedia
 
+Nombre y apellido: Gonzalo Martinez
+DNI: 42630924
+E-mail: gonzalomartinez2934@gmail.com
+Sede: Tandil
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
 
