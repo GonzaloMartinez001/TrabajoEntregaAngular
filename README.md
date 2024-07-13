@@ -4,6 +4,7 @@ Nombre y apellido: Gonzalo Martinez
 DNI: 42630924
 E-mail: gonzalomartinez2934@gmail.com
 Sede: Tandil
+Enalce a stackblitz: https://stackblitz.com/~/github.com/GonzaloMartinez001/TrabajoEntregaAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
 
