@@ -1,0 +1,9 @@
+<div>
+    <h3>Captcha Verification</h3>
+    <div [innerHTML]="captchaValue" (copy)="onCaptchaCopy($event)"></div>
+    <input [(ngModel)]="captchaInput" placeholder="Enter Captcha">
+    <button (click)="onCaptchaButtonClick($event)">Verify Captcha</button>
+    <div>{{ captchaResult }}</div>
+    <button class="mt-2 rounded-pill" (click)="onLoginButtonClick($event)">Login<img class="m-2" width="30" src="assets/images/login.png" alt="login"></button>
+</div>
+  

@@ -1,0 +1,12 @@
+<div class="container mt-5 bg-warning bg-gradient rounded p-8">
+    <h1>Cart list</h1>
+        <ul>
+            <li *ngFor="let game of cartListGames">
+                <img src="{{game.image}}" width="90">
+                <h5> {{game.name}}: Quantity {{game.quantity}}. Total: ${{game.price * game.quantity}}. </h5>
+            </li>
+            <h3>Total purchase: ${{total}}</h3>
+            <button class="mb-4 p-1 rounded-pill">Finish purchase</button>
+        </ul>
+</div>
+
